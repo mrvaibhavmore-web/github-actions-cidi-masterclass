@@ -6,7 +6,7 @@ on:
 #Jobs in the WF
 jobs:
   code-checkout:
-     runs-on: ubun
+     runs-on: ubuntu-latest
    #Steps in the WF 
    steps:
    -name : Clone the code
