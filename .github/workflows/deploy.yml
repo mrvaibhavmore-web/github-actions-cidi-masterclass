@@ -1,15 +1,12 @@
-name: deploy
+name: Deploy
 
 on:
-  push:
   workflow_call:
-  workflow_dispatch:
-  schedule:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: deploy the code
-        run: echo "Code deployed to AWS EC2 instance"
+      - name: Deploy the code
+        run: echo "Code deployed successfully"
