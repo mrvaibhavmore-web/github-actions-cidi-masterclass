@@ -5,12 +5,11 @@ on:
    push:
 #Jobs in the WF
 jobs:
-   code-checkout:
-   runs-onn: ubuntu-latest
+  code-checkout:
+     runs-on: ubun
    #Steps in the WF 
    steps:
    -name : Clone the code
    uses: actions/checkout@v7
-
    -name: print the message
    run: echo "Code Cloned"
