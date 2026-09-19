@@ -7,9 +7,9 @@ on:
 jobs:
   code-checkout:
      runs-on: ubuntu-latest
-   #Steps in the WF 
-   steps:
+     #Steps in the WF 
+    steps:
    - name : Clone the code
-   uses: actions/checkout@v7
-   - name: print the message
-   run: echo "Code Cloned"
+     uses: actions/checkout@v7
+   - name: Print the message
+     run: echo "Code Cloned"
